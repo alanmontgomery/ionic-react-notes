@@ -1,7 +1,7 @@
 # ionic-react-notes
 An example of a Notes UI/App built with Ionic React
 
-![Ionic React Notes App](https://repository-images.githubusercontent.com/355272810/25392780-9707-11eb-95b2-bb9c6eefd313)
+![Ionic React Notes App](https://repository-images.githubusercontent.com/366003321/b4fb4700-b187-11eb-93ca-39bfd1025686)
 
 ### Included in this Ionic React Template/UI
 * Global state management with Pullstate
