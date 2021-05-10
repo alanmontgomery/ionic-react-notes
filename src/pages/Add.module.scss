@@ -1,0 +1,29 @@
+.title {
+
+    margin-top: 0.35rem;
+}
+
+.customInput {
+
+    border-radius: 22px !important;
+    --padding-bottom: 1rem;
+    --padding-top: 1rem;
+
+    box-shadow: 0 0.7px 0.9px rgba(0, 0, 0, 0.101),
+    0 0.9px 2.5px rgba(0, 0, 0, 0.145),
+    0 2.5px 6px rgba(0, 0, 0, 0.189),
+    0 8px 20px rgba(0, 0, 0, 0.29);
+}
+
+.customInput {
+
+    margin-bottom: 1rem !important;
+}
+
+.saveButton {
+
+    --border-radius: 12px !important;
+
+    --padding-top: 1.75rem !important;
+    --padding-bottom: 1.75rem !important;
+}

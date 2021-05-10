@@ -1,0 +1,130 @@
+.heading {
+
+    color: var(--lighter-blue-color);
+    font-size: 1rem;
+}
+
+.mainTitle {
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.slideHeader {
+
+    margin: 0 !important;
+    padding: 0;
+    padding: 1.5rem !important;
+    padding-top: 0 !important;
+}
+
+.slideCount {
+
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 1.5rem !important;
+    padding-top: 1rem !important;
+}
+
+.slideCount h6 {
+
+    color: var(--light-blue-color);
+}
+
+.slideHeader h4 {
+
+    color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    font-size: 1.75rem;
+}
+
+.categorySlider {
+
+    margin-top: -1.6rem;
+
+    ion-slide {
+
+        width: 60%;
+        margin-right: 30px;
+    }
+
+    ion-col {
+
+        padding-left: 0;
+
+        ion-card {
+
+            width: 100%;
+            border-radius: 22px;
+            // box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.16);
+
+            box-shadow: 0 0.7px 0.9px rgba(0, 0, 0, 0.101),
+            0 1.9px 2.5px rgba(0, 0, 0, 0.145),
+            0 4.5px 6px rgba(0, 0, 0, 0.189),
+            0 15px 20px rgba(0, 0, 0, 0.29);
+
+            ion-card-header {
+
+                text-align: left !important;
+            }
+
+            ion-card-content {
+
+                padding: 0;
+                padding: 0.5rem;
+            }
+        }
+    }
+
+    .lastUsed {
+
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: white;
+    }
+
+    .categoryColor {
+
+        border-bottom: 3px solid var(--pink-color);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: -1rem;
+    }
+}
+
+.recentNotes {
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-height: 18.8rem;
+    overflow: scroll;
+
+    ion-item {
+
+        --padding-start: 2rem;
+        --padding-end: 2rem;
+        --border-style: none;
+        --border-radius: 22px;
+        --min-height: 4rem;
+
+        h4 {
+
+            padding-left: 1rem;
+            margin-top: 0.6rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.bottomContainer {
+
+    margin-top: -1rem;
+}
